@@ -2,7 +2,7 @@
 library(shiny)
 # begin shiny UI
 shinyUI(pageWithSidebar(
-        headerPanel("Smart prediction technology for easier mobile typing"),
+        headerPanel("Prediction technology for easier mobile typing"),
         sidebarPanel(
                 textInput(inputId="text1", label = "Please enter some words"),
                 numericInput('n', 'Define the number of words to show (top n words)', 5, min = 1, max = 10, step = 1),
